@@ -75,7 +75,7 @@
   justify-content: space-between;
 }
 .skills-content .skill-item:nth-child(2) {
-  margin:0 50px
+  margin: 0 50px;
 }
 .skill-item {
   background-color: #202020;
@@ -96,6 +96,55 @@
 .skill-item p {
   color: #fff;
 }
+.skill-item img {
+  width: 120px;
+  border-radius: 5px;
+}
+/* projects */
+.projects-content {
+  margin-top: 118px;
+  color: #fff;
+}
+.projects-content .projects-item:nth-child(2){
+  justify-content: flex-end;
+  
+}
+.projects-content .projects-item:nth-child(2) .project-item-img-1 {
+  order: 2;
+  margin-left: 50px;
+}
+.projects-content .projects-item:nth-child(2) .project-text {
+  order: 1;
+  text-align: right;
+}
+.projects-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.project-item-img-1 {
+  background: url("https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0HC1537.png?v=1.0");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0.25);
+}
+.project-text {
+  margin-left: 60px;
+  max-width: 600px;
+}
+.project-text h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.project-text p {
+  opacity: 65%;
+  line-height: 29px;
+}
+
 /* utilities */
 .section-container {
   width: 100%;
