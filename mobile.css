@@ -1,0 +1,106 @@
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+  /* show case */
+  .show-case-container {
+    text-align: center;
+  }
+  .show-case-container h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .show-case-container p {
+    font-size: 0.875rem;
+    color: black;
+    margin-top: 1.8rem;
+  }
+  /* sobre mim */
+  .about-me-content {
+    flex-direction: column;
+  }
+  .about-me-content img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+  .about-me-content p {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  /* habilidades */
+  .skills-content {
+    flex-direction: column;
+    margin-top: 1.875rem;
+  }
+  .skills-content .skill-item:nth-child(2) {
+    margin: 2rem 0;
+  }
+  .skill-item {
+    padding: 0.875rem;
+  }
+  .skill-item img {
+    width: 60px;
+    height: 60px;
+  }
+  .skill-item p {
+    font-size: 0.875rem;
+  }
+
+  /* projects */
+  .projects-content{
+    margin-top: 2.185rem;
+  }
+  .projects-item {
+    flex-direction: column;
+  }
+  .projects-content .projects-item:nth-child(2) {
+    justify-content: center;
+  }
+  .projects-content .projects-item:nth-child(2) .project-item-img-1 {
+    order: 1;
+    margin: 0;
+  }
+  .projects-content .projects-item:nth-child(2) .project-text {
+    order: 2;
+    text-align: center;
+  }
+  .project-text{
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1.875rem;
+  }
+  .project-text h3{
+    font-size: 1.5rem;
+  }
+  .project-text p{
+    font-size: 0.85rem;
+    margin-top: 0.85rem;
+  }
+  /* form */
+  .contact-form {
+    margin-top: 1.875rem;
+  }
+  /* footer */
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-items{
+    margin-bottom: 0.875rem;
+  }
+  .social-items a:last-child{
+    margin: 0;
+  }
+
+  /* utilities */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-container {
+    padding: 0 1.185rem;
+  }
+}
